@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Semana2SCondor.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#0098C7">
+            <Label Text="Ejercicio Semana 2 - Sistema de calificaciones" HorizontalTextAlignment="Center" FontSize="25" TextColor="#fff"/>
+        </Frame>
+
+        <Label Text="Parcial 1: "/>
+        <Entry x:Name="txtDato1" Keyboard="Numeric" Placeholder="Nota de seguimiento 1" HorizontalTextAlignment="Center"/>
+        <Entry x:Name="txtExamen1" Keyboard="Numeric" Placeholder="Nota Examen 1" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Parcial 2: "/>
+        <Entry x:Name="txtDato2" Keyboard="Numeric" Placeholder="Nota de seguimiento 2" HorizontalTextAlignment="Center"/>
+        <Entry x:Name="txtExamen2" Keyboard="Numeric" Placeholder="Nota Examen 2" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Resultado: "/>
+        <Entry x:Name="txtResultado" IsReadOnly="True"/>
+
+
+        <Button x:Name="btnCalcular" Text="Calcular" 
+                    Clicked="btnCalcular_Clicked" BackgroundColor="#F2BF00" TextColor="#fff"/>
+
+
+    </StackLayout>
+
+</ContentPage>
