@@ -10,7 +10,8 @@ namespace Semana2SCondor
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new vistaInicio()); 
         }
 
         protected override void OnStart()

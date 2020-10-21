@@ -13,9 +13,10 @@ namespace Semana2SCondor
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(string usuario, string passwd)
         {
             InitializeComponent();
+            lblUsuario.Text = "Bienbenido: " + usuario;
         }
 
         private void btnCalcular_Clicked(object sender, EventArgs e)

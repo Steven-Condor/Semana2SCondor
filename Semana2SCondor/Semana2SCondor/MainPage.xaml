@@ -10,7 +10,8 @@
         <Frame BackgroundColor="#0098C7">
             <Label Text="Ejercicio Semana 2 - Sistema de calificaciones" HorizontalTextAlignment="Center" FontSize="25" TextColor="#fff"/>
         </Frame>
-
+        <Label x:Name="lblUsuario"/>
+        <Label/>
         <Label Text="Parcial 1: "/>
         <Entry x:Name="txtDato1" Keyboard="Numeric" Placeholder="Nota de seguimiento 1" HorizontalTextAlignment="Center"/>
         <Entry x:Name="txtExamen1" Keyboard="Numeric" Placeholder="Nota Examen 1" HorizontalTextAlignment="Center"/>
